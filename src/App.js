@@ -1,10 +1,16 @@
 import React, {useState} from "react";
-// import data from './data';
-// import list from './list';
+import Data from './Data';
+import List from './List';
 
 
 function App() {
-  return <h2>Birthday Reminder</h2>;
+  return <main>
+    <section className='container'>
+      <h3>0 Birthdays Today</h3>
+      <List/>
+      <button onClick={() => console.log('You Clicked Me')}>Clear All</button>
+    </section>
+  </main>;
 }
 
 export default App;
