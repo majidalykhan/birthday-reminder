@@ -1,10 +1,10 @@
-# Quote Generator
+# Birthday Reminder
 
-This project was created using Javascript and Forismatic API for quotes.
+This project was created using React.
 
 ## Preview
 
 <p float="left">
- <img src="preview.png">
+ <img src="src/Preview.PNG">
 </p>
 
